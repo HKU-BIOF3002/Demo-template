@@ -85,13 +85,19 @@ This creates a new folder with the repository contents.
 
 -   Edit, add, or delete files as needed for your assignment.
 
--   In this case, you want to edit your **`hello.sh`** bash script such that it would read a name directly as a command-line argument and then print "My name is \<name from command line\>". For example if you execute:
+-   In the case of this demo assignment, you want to edit your **`hello.sh`** bash script such that it would read a name directly as a command-line argument and then print "My name is \<name from command line\>". For example if you execute:
 
     ``` bash
     ./hello.sh John
     ```
 
     It will print "My name is John"
+
+-   In the case of an executable script like **`hello.sh`** make sure to make it executable.
+
+    ``` bash
+    chmod 755 hello.sh
+    ```
 
 ## Step 5. Stage and Commit Your Changes
 
@@ -128,3 +134,34 @@ This creates a new folder with the repository contents.
 4.  Select your branch as the compare branch, and the main branch (often **`main`** or **`master`**) as the base.
 
 5.  Fill in the title and description, then click **Create pull request**.
+
+## Step 8. Updating code and assignment submission
+
+After the pull request has been completed. If you want to make changes to your code, just repeat Step 5 - 6 to commit and push changes to the GitHub repository.
+
+When you are ready to submit the assignment, you need to commit and push the code from the main branch. To do so:
+
+1.  Switch to **`main`**:
+
+    ``` bash
+    git checkout main
+    ```
+
+2.  Merge your branch (replace **`my-branch`** with the name of your branch):
+
+    ``` bash
+    git merge my-branch
+    ```
+
+3.  Stage and commit your work on **`main`**:
+
+    ``` bash
+    git add.
+    git commit -m "Final submission"
+    ```
+
+4.  Push the updated main to GitHub:
+
+    ``` bash
+    git push origin main
+    ```
