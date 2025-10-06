@@ -47,7 +47,9 @@ Now you are ready to clone Git repositories onto your account on the CPOS server
 
 On the GitHub webpage, navigate to the main page of the repository (i.e, this repository) you want to clone.
 
-Click the Code button and copy the repository URL (choose HTTPS or SSH as appropriate).
+Click the Code button and copy the repository URL (choose HTTPS).
+
+![](images/clipboard-1728223412.png){width="803"}
 
 Open your terminal and navigate to the directory where you want the repo to be cloned.
 
