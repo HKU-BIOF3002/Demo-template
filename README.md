@@ -91,7 +91,7 @@ A new folder with the repository contents should now b
 
 -   Edit, add, or delete files as needed for your assignment.
 
--   In the case of this demo assignment, you want to edit your **`hello.sh`** bash script such that it would read a name directly as a command-line argument and then print "My name is \<name from command line\>". For example if you execute:
+-   In the case of this demo assignment, there is an autograder to check the output of the **`hello.sh`** script. For your script to be marked correct, you have to edit your **`hello.sh`** bash script such that it would read a name directly as a command-line argument and then print "My name is \<name from command line\>". For example, if you execute:
 
     ``` bash
     ./hello.sh John
